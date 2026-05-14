@@ -10,3 +10,6 @@ class Complaint(base):
     description = Column(String)
     category = Column(String)
     priority = Column(String)
+    sentiment = Column(String)
+    status = Column(String, default='Pending')
+    

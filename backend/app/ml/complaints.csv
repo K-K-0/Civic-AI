@@ -1,0 +1,8 @@
+text,category,priority,sentiment
+Road broken near school,Pothole,High,Negative
+Garbage not collected for days,Garbage,High,Negative
+Streetlight not working,Electricity,Medium,Negative
+Water supply stopped,Water,High,Negative
+Park is very clean,Environment,Low,Positive
+Trees planted in colony,Environment,Low,Positive
+Heavy traffic near bridge,Traffic,Medium,Negative
