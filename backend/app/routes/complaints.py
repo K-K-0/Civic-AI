@@ -41,7 +41,7 @@ def create_complaint(complaint: complaintCreate, db: session=Depends(get_db), cu
         'prediction': prediction
     }
 
-@router.post('/get')
+@router.get('/get')
 def get_complaints(db: session=Depends(get_db), current_user=Depends(get_current_user)):
     complaints = db.query(Complaint).all()
     return complaints

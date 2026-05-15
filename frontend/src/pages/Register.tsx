@@ -35,9 +35,9 @@ function Register() {
                     Register
                 </h1>
 
-                <input type="text" name="username" placeholder="username" onChange={handleChange} className="border p-2 rounded" />
-                <input type="text" name="email" placeholder="email" onChange={handleChange} className="border p-2 rounded" />
-                <input type="text" name="email" placeholder="password" onChange={handleChange} className="border p-2 rounded" />
+                <input type="username" name="username" placeholder="username" value={form.username} onChange={handleChange} className="border p-2 rounded" />
+                <input type="email" name="email" placeholder="email" value={form.email} onChange={handleChange} className="border p-2 rounded" />
+                <input type="password" name="password" placeholder="password" value={form.password} onChange={handleChange} className="border p-2 rounded" />
 
                 <button className="bg-black text-white p-2 rounded" > Register </button>
 

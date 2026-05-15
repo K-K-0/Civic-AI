@@ -36,9 +36,9 @@ function Login() {
                 </h1>
 
                 
-                <input type="text" name="email" placeholder="email" onChange={handleChange} className="border p-2 rounded" />
-                
-                <input type="text" name="email" placeholder="password" onChange={handleChange} className="border p-2 rounded" />
+                <input type="text" name="email" placeholder="email" value={form.email}  onChange={handleChange} className="border p-2 rounded" />
+
+                <input type="password" name="password" placeholder="password" value={form.password} onChange={handleChange} className="border p-2 rounded" />
 
                 <button className="bg-black text-white p-2 rounded" > Login </button>
 
