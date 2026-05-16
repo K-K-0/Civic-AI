@@ -20,9 +20,9 @@ app.include_router(
 )
 
 origins = [
-   "civic-ai-eight.vercel.app",
-    "civic-ai-git-main-k-k-0s-projects.vercel.app",
-    "civic-98ed5c2v5-k-k-0s-projects.vercel.app"
+   "https://civic-ai-eight.vercel.app",
+    "https://civic-ai-git-main-k-k-0s-projects.vercel.app",
+    "https://civic-98ed5c2v5-k-k-0s-projects.vercel.app"
 ]
 
 app.add_middleware(
