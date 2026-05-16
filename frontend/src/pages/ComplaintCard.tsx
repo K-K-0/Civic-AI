@@ -1,56 +1,72 @@
-export interface Complaint {
-    id: string;
-    title: string;
-    description: string;
-    priority: "Low" | "Medium" | "High"
-    category?: string;
-    sentiment?: string 
-    status: "Pending" | "In Progress" | "Resolved"
+interface Complaint {
+  title: string
+  description: string
+  priority: string
+  status: string
+  category?: string
+  sentiment?: string
 }
 
+function ComplaintCard({ complaint }: { complaint: Complaint }) {
 
-interface cardComplaint {
-    complaint: Complaint;
-}
-
-function ComplaintCard({ complaint } : cardComplaint) {
+  const priorityColor = {
+    High: "bg-red-100 text-red-700",
+    Medium: "bg-yellow-100 text-yellow-700",
+    Low: "bg-green-100 text-green-700"
+  }
 
   return (
-    <div className="bg-white p-6 rounded-2xl shadow-lg">
+    <div className="border border-gray-100 bg-gray-50 hover:bg-white transition-all duration-300 rounded-3xl p-6 shadow-sm hover:shadow-xl">
 
-      <div className="flex justify-between items-start">
+      {/* TOP */}
+      <div className="flex items-start justify-between">
 
         <div>
 
-          <h2 className="text-2xl font-bold">
+          <h2 className="text-2xl font-bold text-gray-800">
             {complaint.title}
           </h2>
 
-          <p className="text-gray-600 mt-2">
+          <p className="text-gray-600 mt-3 leading-relaxed">
             {complaint.description}
           </p>
 
         </div>
 
-        <span className="bg-yellow-200 text-yellow-800 px-3 py-1 rounded-full text-sm">
+        <span className="bg-blue-100 text-blue-700 px-4 py-2 rounded-full text-sm font-semibold">
           {complaint.status}
         </span>
 
       </div>
 
-      <div className="flex gap-3 mt-5 flex-wrap">
+      {/* TAGS */}
+      <div className="flex gap-3 flex-wrap mt-6">
 
-        <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-full text-sm">
-          {complaint.category}
+        <span
+          className={`px-4 py-2 rounded-full text-sm font-semibold ${
+            priorityColor[
+              complaint.priority as keyof typeof priorityColor
+            ]
+          }`}
+        >
+          {complaint.priority} Priority
         </span>
 
-        <span className="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm">
-          {complaint.priority}
-        </span>
+        {
+          complaint.category && (
+            <span className="bg-purple-100 text-purple-700 px-4 py-2 rounded-full text-sm font-semibold">
+              {complaint.category}
+            </span>
+          )
+        }
 
-        <span className="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm">
-          {complaint.sentiment}
-        </span>
+        {
+          complaint.sentiment && (
+            <span className="bg-pink-100 text-pink-700 px-4 py-2 rounded-full text-sm font-semibold">
+              {complaint.sentiment}
+            </span>
+          )
+        }
 
       </div>
 
