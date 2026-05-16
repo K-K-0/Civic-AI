@@ -20,8 +20,9 @@ app.include_router(
 )
 
 origins = [
-    "http://localhost:5173",
-    "http://127.0.0.1:5173"
+   "civic-ai-eight.vercel.app",
+    "civic-ai-git-main-k-k-0s-projects.vercel.app",
+    "civic-98ed5c2v5-k-k-0s-projects.vercel.app"
 ]
 
 app.add_middleware(
