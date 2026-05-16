@@ -1,8 +1,96 @@
 text,category,priority,sentiment
-Road broken near school,Pothole,High,Negative
-Garbage not collected for days,Garbage,High,Negative
-Streetlight not working,Electricity,Medium,Negative
-Water supply stopped,Water,High,Negative
-Park is very clean,Environment,Low,Positive
-Trees planted in colony,Environment,Low,Positive
+Road broken badly near school,Pothole,High,Negative
+Large potholes causing accidents,Pothole,High,Negative
+Road damaged after heavy rain,Pothole,Medium,Negative
+Street road full of cracks,Pothole,Medium,Negative
+Road repair needed urgently,Pothole,High,Negative
+Potholes near hospital creating traffic,Pothole,High,Negative
+Broken road near market,Pothole,Medium,Negative
+Deep potholes on highway,Pothole,High,Negative
+Road condition very poor,Pothole,Medium,Negative
+Road collapsed near bridge,Pothole,High,Negative
+Street full of water and potholes,Pothole,High,Negative
+Road repair completed successfully,Pothole,Low,Positive
+New road construction done,Pothole,Low,Positive
+Road maintenance work appreciated,Pothole,Low,Positive
+Smooth roads after repair,Pothole,Low,Positive
+
+Garbage overflowing near market,Garbage,High,Negative
+Waste lying on roadside,Garbage,Medium,Negative
+Dustbins not cleaned for weeks,Garbage,High,Negative
+Garbage smell spreading everywhere,Garbage,High,Negative
+Trash not collected from colony,Garbage,Medium,Negative
+Garbage dump attracting animals,Garbage,High,Negative
+Waste management poor in locality,Garbage,Medium,Negative
+Garbage blocking drainage system,Garbage,High,Negative
+Dirty surroundings due to garbage,Garbage,Medium,Negative
+Overflowing bins near school,Garbage,High,Negative
+Garbage removed successfully,Garbage,Low,Positive
+Area cleaned by municipality,Garbage,Low,Positive
+Cleanliness drive successful,Garbage,Low,Positive
+Waste collection improved recently,Garbage,Low,Positive
+Roadside garbage cleared properly,Garbage,Low,Positive
+
+Streetlight not working at night,Electricity,Medium,Negative
+Frequent power cuts in area,Electricity,High,Negative
+Electric wires hanging dangerously,Electricity,High,Negative
+Transformer damaged near colony,Electricity,High,Negative
+Power outage since morning,Electricity,Medium,Negative
+Street completely dark at night,Electricity,Medium,Negative
+Electricity supply unstable,Pothole,Medium,Negative
+Short circuit issue in locality,Electricity,High,Negative
+Street lights flickering continuously,Electricity,Medium,Negative
+Electric pole damaged after storm,Electricity,High,Negative
+Electricity restored successfully,Electricity,Low,Positive
+New streetlights installed,Electricity,Low,Positive
+Power supply improved recently,Electricity,Low,Positive
+Electrical maintenance completed,Electricity,Low,Positive
+Area fully illuminated now,Electricity,Low,Positive
+
+Water supply stopped completely,Water,High,Negative
+Dirty water coming from taps,Water,High,Negative
+Low water pressure in homes,Water,Medium,Negative
+Water leakage on main road,Water,Medium,Negative
+No drinking water available,Water,High,Negative
+Pipeline damaged causing leakage,Water,High,Negative
+Water shortage in colony,Water,High,Negative
+Water tank not cleaned properly,Water,Medium,Negative
+Drain water mixing with supply,Water,High,Negative
+Irregular water supply timings,Water,Medium,Negative
+Clean drinking water available now,Water,Low,Positive
+Water pipeline repaired successfully,Water,Low,Positive
+Regular water supply restored,Water,Low,Positive
+Water issue solved quickly,Water,Low,Positive
+Fresh water supply appreciated,Water,Low,Positive
+
 Heavy traffic near bridge,Traffic,Medium,Negative
+Traffic jam every morning,Traffic,Medium,Negative
+Signal not functioning properly,Traffic,High,Negative
+Vehicles parked illegally on road,Traffic,Medium,Negative
+Traffic congestion near school,Traffic,Medium,Negative
+Broken traffic lights causing jams,Traffic,High,Negative
+Accidents increasing due to traffic,Traffic,High,Negative
+Road blocked by vehicles,Traffic,Medium,Negative
+Traffic police absent at junction,Traffic,Medium,Negative
+Traffic management very poor,Traffic,High,Negative
+Traffic flow improved recently,Traffic,Low,Positive
+New traffic signal installed,Traffic,Low,Positive
+Road congestion reduced,Pothole,Low,Positive
+Traffic issue solved successfully,Traffic,Low,Positive
+Smooth traffic movement now,Traffic,Low,Positive
+
+Trees/tree planted successfully in park,Environment,Low,Positive
+Community planted fifty trees,Environment,Low,Positive
+Park cleaned by volunteers,Environment,Low,Positive
+Green campaign organized successfully,Environment,Low,Positive
+Environment awareness drive appreciated,Environment,Low,Positive
+Illegal tree cutting reported,Environment,High,Negative
+Pollution increasing near factories,Environment,High,Negative
+Smoke causing breathing problems,Environment,High,Negative
+River water polluted badly,Environment,High,Negative
+Air quality becoming dangerous,Environment,High,Negative
+Park maintenance very poor,Environment,Medium,Negative
+Plastic waste harming environment,Environment,Medium,Negative
+Greenery improving in locality,Environment,Low,Positive
+Public garden maintained properly,Environment,Low,Positive
+Clean environment initiative successful,Environment,Low,Positive
